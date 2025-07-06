@@ -1,0 +1,38 @@
+<div style="text-align: center;">
+  <!-- careerapp/templates/careerapp/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Path Guidance</title>
+</head>
+<body>
+    <h2>Career Path Form</h2>
+    <form method="post" action="{% url 'result' %}">
+        {% csrf_token %}
+        <input type="text" name="tools" placeholder="Tools you know (comma-separated)">
+        <br><br>
+        <label>Select Roles:</label><br>
+        <input type="checkbox" name="roles" value="Frontend Developer"> Frontend Developer<br>
+        <input type="checkbox" name="roles" value="Backend Developer"> Backend Developer<br>
+        <input type="checkbox" name="roles" value="Data Analyst"> Data Analyst<br>
+        <input type="checkbox" name="roles" value="AI/ML Engineer"> AI/ML Engineer<br>
+        <input type="checkbox" name="roles" value="DevOps Engineer"> DevOps Engineer<br>
+        <input type="checkbox" name="roles" value="Web Developer"> Web Developer<br>
+        <input type="checkbox" name="roles" value="Mobile App Developer"> Mobile App Developer<br>
+        <input type="checkbox" name="roles" value="Cybersecurity Analyst"> Cybersecurity Analyst<br>
+        <br>
+        <label>Qualification:</label>
+        <select name="qualification">
+            <option>Bachelor’s</option>
+            <option>Master’s</option>
+            <option>Diploma</option>
+            <option>PhD</option>
+            <option>Other</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+</div>
