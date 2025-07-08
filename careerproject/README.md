@@ -26,26 +26,7 @@ A smart web application that helps users identify their ideal tech career path b
 
 ---
 
-📂 Project Structure
 
-careerproject/
-├── careerapp/
-│ ├── templates/
-│ │ └── careerapp/
-│ │ ├── index.html
-│ │ └── result.html
-│ ├── views.py
-│ ├── urls.py
-│ └── ...
-├── careerproject/
-│ ├── settings.py
-│ └── urls.py
-├── db_scripts/
-│ └── career_data.sql
-├── manage.py
-└── requirements.txt
-
----
 
 🧠 How It Works
 
