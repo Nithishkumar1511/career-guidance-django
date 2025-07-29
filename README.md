@@ -68,7 +68,6 @@ Import the SQL file from db_scripts/career_data.sql
 📌 Author
 👨‍💻 Nithishkumar S
 📧 finnnithish@gmail.com
-🔗 GitHub | LinkedIn
 
 ---
 🌐 License
